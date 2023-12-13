@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+        let root = document.getElementById("root");
+
+        let h1=React.createElement("h1", {className:"heading"}, "Topics Covered");
+        let p1=React.createElement("p", {className:"paragraph"}, "The following is a list of all the topics we cover in the MDN learning area.");
+    
+        let div1=React.createElement("div", {className:"subContainer"}, h1, p1);
+
+        let a1=React.createElement("a",{href:"#"}, "Getting started with the web");
+        let p2=React.createElement("p", {className:"paragraph"}, "Provides a practical introduction to web development for complete beginners.");
+
+       let div2=React.createElement("div", {className:"subContainer"}, a1, p2);
+
+        let a2=React.createElement("a", {href:"#"}, "HTMLs- Structuring the web");
+        let p3 = React.createElement("p", {className:"paragraph"}, "HTML is the language that we use to structure the different parts of our content and define what their meaning or purpose is. The topic teaches HTML in details.");
+        let div3 = React.createElement("div", {className:"subContainer"}, a2, p3);
+
+
+        let a3 = React.createElement("a",{href:"#"},"CSS - Styling the web");
+        let p4 = React.createElement("p", {className:"paragraph"}, "CSS is the langauge that we use to control our web content's style and layout, as well as adding behavior like anuimation. This topics provides comprehensive coverage of CSS.")
+
+        let div4 = React.createElement("div", {className:"subContainer"}, a3, p4);
+
+        let div5 = React.createElement("div", {className:"outerContainer"}, div1, div2, div3, div4);
+        ReactDOM.render(div5, root);
+
+    </script>
+</body>
+</html>
