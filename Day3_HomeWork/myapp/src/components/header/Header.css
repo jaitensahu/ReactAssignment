@@ -1,0 +1,32 @@
+.NavContainer{
+    background-color: #A5A19E;
+
+}
+h1{
+    font-weight: 400;
+    color: #981F48;
+    font-family: "PT sans";
+
+}
+header p{
+    margin: 20px 0;
+}
+header nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* max-width: 1320px; */
+    /* padding: 10px 0; */
+}
+li{
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    flex-grow: 1;
+    padding: 10px 0;
+}
+nav li:nth-child(1){
+    background-color: #981F48;
+    
+}

@@ -1,0 +1,20 @@
+.para{
+    padding: 30px 10px;
+}
+.para p:nth-child(1){
+    color: #981F48;
+}
+
+.para p{
+    margin: 10px 0;
+}
+.para hr{
+    margin: 50px 0;
+}
+.para h2{
+    color: #981F48;
+    font-weight: 400;
+}
+.para div{
+    text-align: center;
+}
