@@ -1,0 +1,19 @@
+.movieCard{
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+.movieCard > img {
+    width: 100%;
+}
+.movieCardDetails{
+    position: absolute;
+    top: 0;
+    
+}
+.imageAndTitle{
+    display: flex;
+}
+.movieCardDetails img{
+    width: 150px;
+}
