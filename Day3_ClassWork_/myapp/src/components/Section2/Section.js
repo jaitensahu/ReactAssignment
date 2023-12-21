@@ -14,7 +14,7 @@ export default function Section(){
       }
     return (
         <div className="section2Container">
-        <div className="section2Img">
+        <div data-aos="fade-right"  className="section2Img">
        <img src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="" />
        </div>
         
